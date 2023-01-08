@@ -2,18 +2,15 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+//
 class Solution {
   public:
     void printTriangle(int n) {
-    
-          // rows
+        // rows
         for(int i=1; i<=n; i++) {
-            
             // column
-            for(char j='A'; j<'A'+i; j++) {
-                 
-                cout<<j;
+            for(int j=1 ; j<=i; j++) {
+                cout<<i<<" ";
             }
             cout<<endl;
         }

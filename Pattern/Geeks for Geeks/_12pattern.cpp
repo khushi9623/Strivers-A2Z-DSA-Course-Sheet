@@ -20,7 +20,7 @@ class Solution {
                              cout<<"  ";
                              
                          }
-                         // number
+                         // number//
 
                          for(int j=i; j>=1; j--) {
                              cout<<j<<" ";

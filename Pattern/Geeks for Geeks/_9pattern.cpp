@@ -3,7 +3,7 @@
 
 using namespace std;
 
-
+//
 class Solution {
   public:
     void printDiamond(int n) {

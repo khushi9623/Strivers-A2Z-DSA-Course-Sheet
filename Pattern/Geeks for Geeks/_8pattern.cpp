@@ -7,7 +7,7 @@ class Solution{
 public:
 	
 	void printTriangle(int n) {
-	    // row
+	    //// row
 	    for(int i=0; i<n; i++) {
 	        // space
 	        for(int space1 =0; space1<i ; space1++) {

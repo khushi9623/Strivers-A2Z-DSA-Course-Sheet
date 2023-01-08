@@ -3,14 +3,16 @@
 
 using namespace std;
 
+
 class Solution {
   public:
     void printTriangle(int n) {
-        // rows
-        for(int i=1; i<=n; i++) {
-            // column
-            for(int j=1 ; j<=i; j++) {
-                cout<<i<<" ";
+        // code here
+        for(int i=0;i<n;i++)
+        {
+            for(char ch=(n-1)+'A';ch>='A'+n-i-1;ch--)
+            {
+                cout<<ch<<" ";
             }
             cout<<endl;
         }

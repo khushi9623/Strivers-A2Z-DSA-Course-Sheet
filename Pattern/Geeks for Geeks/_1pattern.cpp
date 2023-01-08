@@ -11,12 +11,10 @@ Any pattern can be solved using the following rules:
 
 */
 
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 
 using namespace std;
 
-// } Driver Code Ends
 class Solution {
   public:
     void printSquare(int n) {
