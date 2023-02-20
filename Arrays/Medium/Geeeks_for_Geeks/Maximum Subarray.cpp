@@ -2,10 +2,11 @@
 
 using namespace std;
 
-
 class Solution{
     public:
-   
+    // arr: input array
+    // n: size of array
+    //Function to find the sum of contiguous subarray with maximum sum.
     long long maxSubarraySum(int arr[], int n){
     
     long long sum = 0;
@@ -21,4 +22,3 @@ class Solution{
       return maxi;  
     }
 };
-
